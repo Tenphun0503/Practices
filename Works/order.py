@@ -37,7 +37,7 @@ if __name__ == "__main__":
     elif aPizza in YES:
         pizza = [order_pizza()]
         while True:
-            continueOrder = input("do u wanna more?")
+            continueOrder = input("do u wanna more?").upper()
             if continueOrder in NO:
                 break
             elif continueOrder in YES:
