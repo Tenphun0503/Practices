@@ -32,4 +32,7 @@ def isIsomorphic(s, t):
 
 s = "badc"
 t = "baba"
+for c1, c2 in zip(s, t):
+    print(c1, c2)
+
 print(isIsomorphic(s, t))
