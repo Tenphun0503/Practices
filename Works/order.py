@@ -1,3 +1,6 @@
+"""
+An pizza order function
+"""
 import pizzaReceipt as pr
 
 SIZE = ['S', 'M', 'L', 'XL']

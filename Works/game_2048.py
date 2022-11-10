@@ -1,3 +1,6 @@
+"""
+simple 2048 games
+"""
 import random as r
 import time
 

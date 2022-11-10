@@ -1,3 +1,6 @@
+"""
+a function for generating receipt
+"""
 def generateReceipt(pizzaOrder):
     # Dictionary of base price and additional cost
     base_price = {'S':7.99, 'M':9.99, 'L':11.99, 'XL': 13.99}
